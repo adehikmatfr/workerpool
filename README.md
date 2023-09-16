@@ -33,7 +33,7 @@ func main() {
 		counter++
 	}
 
-	for i := 0; i < numJobs; i++ {
+	for i := 0; i < 20; i++ {
 		wp.SubmitJob(jobFunc)
 	}
 
